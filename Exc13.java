@@ -1,13 +1,11 @@
 package lista16Exercicios;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Exc13 {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-		DecimalFormat fmt = new DecimalFormat("0.00");
 		
 		System.out.print("Peso do Pescado: ");
 		double peso = ler.nextDouble();
